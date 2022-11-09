@@ -1,0 +1,37 @@
+n* AS distinti nella lista di Caida: 74145
+n* AS a cui sono associate delle locazioni: 54124
+n* AS che sono identificati ma che non si trovano in Caida: 1932
+n* AS in Caida senza una locazione: 21953
+n* AS in Caida senza una facility ma con delle coordinate: 10541
+n* AS in Caida in almeno una facility: 41651
+la somma torna
+service entries for countries by AS available:
+26060
+facilities with directly assigned coordinates found:
+4145
+reading city coordinates from file
+total facilities with coordinates after city integration
+4145
+saving facility coordinates in fac_to_coord.txt
+building list of facilities per AS using peeringdb database...
+number of AS found within peeringdb facilities:
+9962
+number of facilities found within peeringdb with at least one AS:
+3461
+saving AS contained in facilities in fac_to_asn.txt
+getting additional locations from ixpdb
+updating facility-asn dict
+3474
+ASN found within ixpd dataset
+5886
+total number of locations
+78124
+building locations from peeringdb data
+ASN with at least one location after peeringdb extension
+12431
+total locations
+171016
+AS totali con almeno una locazione
+54244
+locazioni distinte
+21694

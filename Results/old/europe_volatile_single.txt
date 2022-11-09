@@ -1,0 +1,73 @@
+link mode:
+volatile
+links contained in the topology
+461889
+facilities found within database
+3461
+total number of AS in topology (number of nodes in the graph)
+74145
+lost facilities:
+343
+lost links:
+34296
+lost AS:
+667
+damage recorded
+country code: MA service lost for 4981911 users, 20.1% of national coverage, totaling 0.1186% of global internet infrastructure
+country code: RU service lost for 3012120 users, 2.52% of national coverage, totaling 0.0717% of global internet infrastructure
+country code: DZ service lost for 2996217 users, 11.98% of national coverage, totaling 0.0713% of global internet infrastructure
+country code: RO service lost for 2613342 users, 18.990000000000002% of national coverage, totaling 0.062300000000000015% of global internet infrastructure
+country code: PL service lost for 4370604 users, 13.939999999999985% of national coverage, totaling 0.10420000000000003% of global internet infrastructure
+country code: CZ service lost for 2990987 users, 33.97999999999999% of national coverage, totaling 0.07110000000000004% of global internet infrastructure
+country code: HU service lost for 3511997 users, 46.74999999999999% of national coverage, totaling 0.08340000000000002% of global internet infrastructure
+country code: AT service lost for 2255959 users, 26.97% of national coverage, totaling 0.053700000000000005% of global internet infrastructure
+country code: TN service lost for 1838873 users, 23.85% of national coverage, totaling 0.0438% of global internet infrastructure
+country code: IQ service lost for 938874 users, 2.63% of national coverage, totaling 0.0224% of global internet infrastructure
+country code: BA service lost for 760821 users, 26.79% of national coverage, totaling 0.0181% of global internet infrastructure
+country code: BG service lost for 777015 users, 15.950000000000001% of national coverage, totaling 0.018500000000000003% of global internet infrastructure
+country code: IT service lost for 1698846 users, 4.469999999999994% of national coverage, totaling 0.04040000000000006% of global internet infrastructure
+country code: FR service lost for 421669 users, 0.7700000000000001% of national coverage, totaling 0.009999999999999997% of global internet infrastructure
+country code: MG service lost for 244095 users, 5.25% of national coverage, totaling 0.0058% of global internet infrastructure
+country code: ES service lost for 871737 users, 2.0399999999999996% of national coverage, totaling 0.020799999999999992% of global internet infrastructure
+country code: MT service lost for 165310 users, 44.25% of national coverage, totaling 0.0039% of global internet infrastructure
+country code: GE service lost for 94142 users, 3.38% of national coverage, totaling 0.0022% of global internet infrastructure
+country code: UA service lost for 352491 users, 1.2500000000000002% of national coverage, totaling 0.008399999999999998% of global internet infrastructure
+country code: LT service lost for 33359 users, 1.46% of national coverage, totaling 0.0008% of global internet infrastructure
+country code: RS service lost for 31327 users, 0.47% of national coverage, totaling 0.0007% of global internet infrastructure
+country code: JE service lost for 28786 users, 30.1% of national coverage, totaling 0.0007% of global internet infrastructure
+country code: GG service lost for 28123 users, 81.13% of national coverage, totaling 0.0007% of global internet infrastructure
+country code: DE service lost for 83147 users, 0.10999999999999999% of national coverage, totaling 0.0019000000000000002% of global internet infrastructure
+country code: SM service lost for 16589 users, 88.89% of national coverage, totaling 0.0004% of global internet infrastructure
+country code: GI service lost for 12374 users, 32.33% of national coverage, totaling 0.0003% of global internet infrastructure
+country code: IM service lost for 9345 users, 19.98% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: TR service lost for 10845 users, 0.02% of national coverage, totaling 0.00030000000000000003% of global internet infrastructure
+country code: GB service lost for 12259 users, 0.02% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: SK service lost for 2249 users, 0.05% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: RE service lost for 1556 users, 0.32% of national coverage, totaling 0.0% of global internet infrastructure
+country code: MK service lost for 1552 users, 0.09% of national coverage, totaling 0.0% of global internet infrastructure
+country code: AE service lost for 616 users, 0.01% of national coverage, totaling 0.0% of global internet infrastructure
+total damage: 35169137 users lost service, for 0.8369000000000001% of the total internet
+global user lost
+35169137
+global internet loss
+0.8369000000000001
+ending graph nodes
+73478
+lost_nodes
+667
+starting size of giant component
+74145
+ending size of giant component
+72933
+starting number of disjoint components
+1
+ending number of disjoint components
+523
+number of samples
+20
+sample nodes
+[30681, 142555, 134695, 48374, 45380, 149545, 205909, 263032, 393958, 16314, 46963, 141486, 5089, 42422, 136099, 22246, 204062, 207203, 263902, 263253]
+starting sampled aspl
+3.63
+ending sampled aspl
+0

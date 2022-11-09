@@ -1,0 +1,32 @@
+service entries for countries by AS available:
+26060
+links in topology:
+461889
+AS in topology
+74145
+countries in service dataset
+232
+AS in service dataset
+24189
+AS from topology present in service dataset
+24095
+number of facilities with coordinates in dataset
+4682
+number of facilities with at least one AS:
+3474
+number of distinct AS in facilities
+11768
+number of facility AS in topology
+10541
+number of links that can be reconstructed in facilities
+171016
+average number of AS per facility
+28.86672423719056
+top 3 facilities by number of AS (facility, n* of AS)
+[(58, 1428), (34, 1341), (60, 1324)]
+number of nodes in the topology graph
+74145
+average node degree
+12.459073437183896
+top 3 AS with the largest number of neighbors (AS, degree)
+[(6939, 9610), (174, 6628), (3356, 6390)]

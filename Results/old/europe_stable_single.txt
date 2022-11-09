@@ -1,0 +1,50 @@
+link mode:
+stable
+links contained in the topology
+461889
+facilities found within database
+3461
+total number of AS in topology (number of nodes in the graph)
+74145
+lost facilities:
+343
+lost links:
+10386
+lost AS:
+91
+damage recorded
+country code: AT service lost for 57575 users, 0.6900000000000001% of national coverage, totaling 0.0014% of global internet infrastructure
+country code: CZ service lost for 34945 users, 0.39% of national coverage, totaling 0.0008% of global internet infrastructure
+country code: UA service lost for 28286 users, 0.1% of national coverage, totaling 0.0007% of global internet infrastructure
+country code: ES service lost for 28984 users, 0.06999999999999999% of national coverage, totaling 0.0007000000000000001% of global internet infrastructure
+country code: BG service lost for 6444 users, 0.13% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: DE service lost for 4620 users, 0.01% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: IT service lost for 7103 users, 0.02% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: FR service lost for 3533 users, 0.01% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: HU service lost for 1908 users, 0.03% of national coverage, totaling 0.0% of global internet infrastructure
+country code: RO service lost for 907 users, 0.01% of national coverage, totaling 0.0% of global internet infrastructure
+total damage: 174305 users lost service, for 0.004200000000000001% of the total internet
+global user lost
+174305
+global internet loss
+0.004200000000000001
+ending graph nodes
+74054
+lost_nodes
+91
+starting size of giant component
+74145
+ending size of giant component
+74023
+starting number of disjoint components
+1
+ending number of disjoint components
+25
+number of samples
+20
+sample nodes
+[271682, 209125, 141099, 264213, 397567, 25376, 35507, 140724, 268787, 396327, 51030, 60627, 139443, 21764, 48213, 131341, 12991, 141557, 54763, 204674]
+starting sampled aspl
+4.12
+ending sampled aspl
+4.14

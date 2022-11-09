@@ -1,0 +1,43 @@
+link mode:
+stable
+links contained in the topology
+461889
+facilities found within database
+3461
+total number of AS in topology (number of nodes in the graph)
+74145
+lost facilities:
+10
+lost links:
+24315
+lost AS:
+43
+damage recorded
+country code: GB service lost for 174562 users, 0.27% of national coverage, totaling 0.004200000000000001% of global internet infrastructure
+country code: ZA service lost for 4572 users, 0.01% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: BR service lost for 2548 users, 0.0% of national coverage, totaling 0.0001% of global internet infrastructure
+total damage: 181682 users lost service, for 0.004400000000000001% of the total internet
+global user lost
+181682
+global internet loss
+0.004400000000000001
+ending graph nodes
+74102
+lost_nodes
+43
+starting size of giant component
+74145
+ending size of giant component
+74083
+starting number of disjoint components
+1
+ending number of disjoint components
+18
+number of samples
+20
+sample nodes
+[41768, 202994, 132713, 211719, 395824, 394735, 209468, 63251, 58191, 269200, 20552, 19858, 268317, 270910, 198124, 135173, 265835, 268768, 61379, 269531]
+starting sampled aspl
+3.67
+ending sampled aspl
+3.84

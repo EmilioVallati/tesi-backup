@@ -1,0 +1,81 @@
+link mode:
+volatile
+links contained in the topology
+461889
+facilities found within database
+3461
+total number of AS in topology (number of nodes in the graph)
+74145
+lost facilities:
+10
+lost links:
+30221
+lost AS:
+291
+damage recorded
+country code: MZ service lost for 7107161 users, 89.14% of national coverage, totaling 0.16920000000000002% of global internet infrastructure
+country code: MG service lost for 3207164 users, 68.95% of national coverage, totaling 0.07629999999999999% of global internet infrastructure
+country code: LK service lost for 1489371 users, 18.259999999999998% of national coverage, totaling 0.0355% of global internet infrastructure
+country code: MW service lost for 1030248 users, 29.509999999999998% of national coverage, totaling 0.0245% of global internet infrastructure
+country code: IL service lost for 1309833 users, 17.68% of national coverage, totaling 0.031200000000000002% of global internet infrastructure
+country code: TG service lost for 752421 users, 54.8% of national coverage, totaling 0.0179% of global internet infrastructure
+country code: KH service lost for 734187 users, 10.28% of national coverage, totaling 0.0175% of global internet infrastructure
+country code: MX service lost for 605288 users, 0.66% of national coverage, totaling 0.0144% of global internet infrastructure
+country code: BR service lost for 3567934 users, 2.129999999999999% of national coverage, totaling 0.08500000000000005% of global internet infrastructure
+country code: NP service lost for 410109 users, 5.63% of national coverage, totaling 0.0098% of global internet infrastructure
+country code: DE service lost for 341530 users, 0.4900000000000001% of national coverage, totaling 0.008199999999999999% of global internet infrastructure
+country code: TN service lost for 204845 users, 2.66% of national coverage, totaling 0.0049% of global internet infrastructure
+country code: ZA service lost for 724351 users, 1.9900000000000004% of national coverage, totaling 0.017299999999999992% of global internet infrastructure
+country code: GB service lost for 213735 users, 0.3400000000000001% of national coverage, totaling 0.004900000000000002% of global internet infrastructure
+country code: IT service lost for 86674 users, 0.23% of national coverage, totaling 0.0021% of global internet infrastructure
+country code: JO service lost for 67642 users, 0.89% of national coverage, totaling 0.0016% of global internet infrastructure
+country code: CY service lost for 60456 users, 5.58% of national coverage, totaling 0.0014% of global internet infrastructure
+country code: BG service lost for 55705 users, 1.14% of national coverage, totaling 0.0013% of global internet infrastructure
+country code: US service lost for 40456 users, 0.01% of national coverage, totaling 0.0009000000000000002% of global internet infrastructure
+country code: FR service lost for 16295 users, 0.03% of national coverage, totaling 0.0004% of global internet infrastructure
+country code: ES service lost for 14233 users, 0.03% of national coverage, totaling 0.0003% of global internet infrastructure
+country code: NG service lost for 10379 users, 0.02% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: ID service lost for 11144 users, 0.01% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: MA service lost for 7078 users, 0.03% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: CM service lost for 6961 users, 0.11% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: CI service lost for 6729 users, 0.05% of national coverage, totaling 0.0002% of global internet infrastructure
+country code: TR service lost for 6073 users, 0.01% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: IE service lost for 2246 users, 0.05% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: CF service lost for 2158 users, 0.93% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: SG service lost for 2227 users, 0.04% of national coverage, totaling 0.0% of global internet infrastructure
+country code: RE service lost for 1556 users, 0.32% of national coverage, totaling 0.0% of global internet infrastructure
+country code: LY service lost for 1350 users, 0.08% of national coverage, totaling 0.0% of global internet infrastructure
+country code: MM service lost for 1316 users, 0.01% of national coverage, totaling 0.0% of global internet infrastructure
+country code: NO service lost for 975 users, 0.02% of national coverage, totaling 0.0% of global internet infrastructure
+country code: PT service lost for 805 users, 0.01% of national coverage, totaling 0.0% of global internet infrastructure
+country code: SZ service lost for 943 users, 0.24% of national coverage, totaling 0.0% of global internet infrastructure
+country code: IN service lost for 550 users, 0.0% of national coverage, totaling 0.0% of global internet infrastructure
+country code: HU service lost for 496 users, 0.01% of national coverage, totaling 0.0% of global internet infrastructure
+country code: AO service lost for 488 users, 0.01% of national coverage, totaling 0.0% of global internet infrastructure
+country code: GM service lost for 395 users, 0.07% of national coverage, totaling 0.0% of global internet infrastructure
+country code: GR service lost for 298 users, 0.0% of national coverage, totaling 0.0% of global internet infrastructure
+total damage: 22103805 users lost service, for 0.5258999999999999% of the total internet
+global user lost
+22103805
+global internet loss
+0.5258999999999999
+ending graph nodes
+73854
+lost_nodes
+291
+starting size of giant component
+74145
+ending size of giant component
+73517
+starting number of disjoint components
+1
+ending number of disjoint components
+324
+number of samples
+20
+sample nodes
+[265835, 61866, 394784, 268623, 262812, 262613, 58280, 49473, 270451, 56436, 396119, 400431, 55312, 132228, 133757, 27385, 270546, 48519, 37715, 202399]
+starting sampled aspl
+3.71
+ending sampled aspl
+3.71

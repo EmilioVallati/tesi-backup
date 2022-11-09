@@ -1,0 +1,40 @@
+link mode:
+stable
+links contained in the topology
+461889
+facilities found within database
+3461
+total number of AS in topology (number of nodes in the graph)
+74145
+lost facilities:
+0
+lost links:
+0
+lost AS:
+0
+damage recorded
+total damage: 0 users lost service, for 0% of the total internet
+global user lost
+0
+global internet loss
+0
+ending graph nodes
+74145
+lost_nodes
+0
+starting size of giant component
+74145
+ending size of giant component
+74145
+starting number of disjoint components
+1
+ending number of disjoint components
+1
+number of samples
+20
+sample nodes
+[26463, 49610, 136234, 213379, 34458, 17487, 147063, 204915, 45133, 44437, 16402, 203462, 18870, 271527, 12730, 58589, 131816, 203658, 52188, 207928]
+starting sampled aspl
+3.87
+ending sampled aspl
+3.87

@@ -1,0 +1,191 @@
+as in service dict non in topology
+
+[208294, 'DE', 331596, 0.47, 0.0079]
+[140732, 'PK', 242913, 0.67, 0.0058]
+[141677, 'HK', 77092, 1.1, 0.0018]
+[56347, 'UA', 39945, 0.14, 0.001]
+[269771, 'VE', 32861, 0.17, 0.0008]
+[271951, 'VE', 31017, 0.16, 0.0007]
+[265159, 'BR', 26336, 0.02, 0.0006]
+[263622, 'BR', 21146, 0.01, 0.0005]
+[211413, 'IQ', 20919, 0.06, 0.0005]
+[32233, 'CA', 20246, 0.06, 0.0005]
+[14457, 'BR', 15417, 0.01, 0.0004]
+[12177, 'US', 13029, 0.01, 0.0003]
+[199930, 'ES', 12772, 0.03, 0.0003]
+[271816, 'VE', 11780, 0.06, 0.0003]
+[394381, 'AE', 10656, 0.11, 0.0003]
+[57498, 'UA', 8892, 0.03, 0.0002]
+[139675, 'BD', 8548, 0.03, 0.0002]
+[262484, 'BR', 8220, 0.01, 0.0002]
+[53199, 'BR', 7274, 0.0, 0.0002]
+[197002, 'UA', 6749, 0.02, 0.0002]
+[137829, 'NP', 6737, 0.09, 0.0002]
+[267803, 'HN', 5657, 0.16, 0.0001]
+[28926, 'UA', 5640, 0.02, 0.0001]
+[267609, 'BR', 5631, 0.0, 0.0001]
+[267272, 'BR', 5538, 0.0, 0.0001]
+[141529, 'IN', 5202, 0.0, 0.0001]
+[208494, 'UA', 5181, 0.02, 0.0001]
+[263632, 'BR', 5043, 0.0, 0.0001]
+[263619, 'BR', 4483, 0.0, 0.0001]
+[265498, 'BR', 4150, 0.0, 0.0001]
+[268834, 'BR', 3886, 0.0, 0.0001]
+[42469, 'UA', 3566, 0.01, 0.0001]
+[212906, 'CZ', 3295, 0.04, 0.0001]
+[263854, 'BR', 3253, 0.0, 0.0001]
+[268133, 'BR', 3193, 0.0, 0.0001]
+[268634, 'BR', 3132, 0.0, 0.0001]
+[133994, 'IN', 3067, 0.0, 0.0001]
+[59457, 'BA', 2843, 0.1, 0.0001]
+[133699, 'IN', 2796, 0.0, 0.0001]
+[262862, 'BR', 2742, 0.0, 0.0001]
+[142615, 'BD', 2631, 0.01, 0.0001]
+[202362, 'UA', 2617, 0.01, 0.0001]
+[141717, 'PK', 2542, 0.01, 0.0001]
+[268501, 'BR', 2487, 0.0, 0.0001]
+[271126, 'BR', 2487, 0.0, 0.0001]
+[135438, 'BD', 2471, 0.01, 0.0001]
+[39772, 'UA', 2351, 0.01, 0.0001]
+[47886, 'NL', 2309, 0.01, 0.0001]
+[205239, 'UA', 2303, 0.01, 0.0001]
+[210289, 'TR', 2231, 0.0, 0.0001]
+[264977, 'BR', 2199, 0.0, 0.0001]
+[268859, 'BR', 2195, 0.0, 0.0001]
+[9989, 'AU', 2186, 0.01, 0.0001]
+[32399, 'PH', 2179, 0.0, 0.0001]
+[59768, 'UA', 2153, 0.01, 0.0001]
+[149502, 'HK', 2142, 0.03, 0.0001]
+[270621, 'BR', 2077, 0.0, 0.0]
+[328013, 'ZA', 2068, 0.01, 0.0]
+[271416, 'BR', 2032, 0.0, 0.0]
+[267005, 'BR', 2008, 0.0, 0.0]
+[198377, 'PL', 1899, 0.01, 0.0]
+[59913, 'SE', 1661, 0.02, 0.0]
+[141337, 'IN', 1587, 0.0, 0.0]
+[270640, 'BR', 1525, 0.0, 0.0]
+[271411, 'BR', 1501, 0.0, 0.0]
+[271081, 'BR', 1484, 0.0, 0.0]
+[141220, 'BD', 1429, 0.0, 0.0]
+[136301, 'IN', 1378, 0.0, 0.0]
+[139790, 'BD', 1306, 0.0, 0.0]
+[14366, 'CA', 1257, 0.0, 0.0]
+[132023, 'NZ', 1253, 0.03, 0.0]
+[270827, 'BR', 1205, 0.0, 0.0]
+[39355, 'AM', 1177, 0.05, 0.0]
+[265668, 'PE', 1163, 0.01, 0.0]
+[266234, 'BR', 1131, 0.0, 0.0]
+[396139, 'US', 996, 0.0, 0.0]
+[17454, 'ID', 995, 0.0, 0.0]
+[17819, 'AU', 916, 0.0, 0.0]
+[271608, 'BR', 900, 0.0, 0.0]
+[268427, 'BR', 896, 0.0, 0.0]
+[149032, 'BD', 894, 0.0, 0.0]
+[135250, 'IN', 836, 0.0, 0.0]
+[149301, 'BD', 814, 0.0, 0.0]
+[271068, 'BR', 811, 0.0, 0.0]
+[137131, 'IN', 747, 0.0, 0.0]
+[137595, 'IN', 655, 0.0, 0.0]
+[61688, 'BR', 641, 0.0, 0.0]
+[136295, 'IN', 624, 0.0, 0.0]
+[266496, 'BR', 616, 0.0, 0.0]
+[136952, 'MM', 588, 0.0, 0.0]
+[141495, 'IN', 461, 0.0, 0.0]
+[139025, 'BD', 266, 0.0, 0.0]
+[136884, 'ID', 217, 0.0, 0.0]
+[142321, 'ID', 156, 0.0, 0.0]
+num 94 > topology incompleta
+totale utenti 1112096
+
+as nella topologia non in service
+50050 > se esplodono questi non sappiamo i danni effettivi, sono tanti
+controllare il totale della popolazione servita dal service dict, gli as che mancano potrebbero non servire direttamente la popolazione
+
+numero di AS distinti presenti nelle facility di peeringdb che non sono presenti nella topologia
+943 > questi as devono esistere da qualche parte ma se nnon sono nella topologia non possiamo sapere se toglierli
+ha delle consequenze sul resto
+
+controllare per bene la differenza di AS tra facility e topoloia, 9900 - 7900 non fa 900
+
+as nella topologia non nelle facility
+65126 > so tanti e se siamo in modalità stable non c'è modo di farli esplodere che ovviamente non è realistico
+
+top 10 facility per numero di as
+(58, 497) 'DE', 50.11967, 8.73463, 'Interxion Frankfurt (FRA1-15)', 'Europe'
+(34, 444)  'GB', None, None, 'Telehouse - London (Docklands North)'
+(1, 416) 'US', 39.016363, -77.459023, 'Equinix DC1-DC15, DC21 - Ashburn', 'North America'
+(60, 362) DE 50.09885, 8.632004, 'Equinix FR5 - Frankfurt, KleyerStrasse'
+(282, 362) 'SG', 1.295229, 103.789842, 'Equinix SG1 - Singapore'
+(165, 346) 'BR', -23.497589, -46.814576, 'Equinix SP4 - São Paulo'
+(850, 307) 'ZA', -26.137957, 28.197517, 'Teraco Johannesburg Campus, South Africa'
+(19, 305)  'US', 34.047942, -118.255564, 'CoreSite - Los Angeles (LA1) One Wilshire'
+(45, 294) 'GB', 51.498842, -0.014327, 'Equinix LD8 - London, Docklands'
+(53, 292) 'FR', 48.856654, 2.38532, 'Telehouse - Paris 2 (Voltaire - Léon Frot)'
+
+per regionale si intende farlo su queste prove che richiedono una classificazione di AS
+anche quello delle top 10 città
+
+top 10 as per utenti serviti
+(4134, 305310805) CHINANET-BACKBONE No.31,Jin-rong Street CH fac = [1, 6, 8, 10, 15, 45, 58, 1236, 2447, 683, 1283]
+
+(55836, 291917002) RELIANCEJIO-IN Reliance Jio Infocomm Limited IN fac = []
+
+(45609, 149226057) BHARTI-MOBILITY-AS-AP Bharti Airtel Ltd. AS for GPRS Service IN fac = []
+
+(4837, 133338985) CHINA169-BACKBONE CHINA UNICOM China169 Backbone CN [6, 15, 19, 45, 58, 156, 225, 282, 188, 3045]
+
+(9808, 101918381) CHINAMOBILE-CN China Mobile Communications Group Co., Ltd. CN fac = []
+
+(197207, 62791189) MCCI-AS IR fac = []
+
+(4812, 40769175) 	CHINANET-SH-AP China Telecom Group CH fac = []
+
+(29465, 36940770) VCG-AS NG [5094, 4411]
+
+(7922, 36894090) COMCAST-7922 US fac = [1, 4, 6, 7, 8, 15, 16, 19, 86, 125, 219, 1476, 5, 389, 1820, 1422]
+
+(38266, 36656025) 	VODAFONE-IN Vodafone India Ltd. IN fac = []
+
+evidenzia la necessità in futuro di espandere il dataset con altre sorgenti
+
+metà degli AS più grandi non sono neanche compresi nelle facility di peeringdb, questo praticamente significa che c'è
+una grande quantità di utenti di cui non possiamo controllare se verrebbero influenzati da un evento e una serie di as
+molto importanti su cui non possiamo calcolare dati
+
+facility che contengono il maggior numero di questi AS (fac_id, n*AS)
+
+[(6, 3), (15, 3), (1, 2), (8, 2), (19, 2), (45, 2), (58, 2), (4, 1), (7, 1), (10, 1)]
+
+15, 1, 19, 45 appaiono nella lista di quelle con più AS
+
+ci sono facility particolarmente importanti che non hanno coordinate e quindi non sono rimuovibili esempio la 34 ha 444
+AS tra cui tanti di quelli importanti e non ci sono le coordinate quindi non vengono fuori direttamente con gli eventi,
+però si possono bersagliare usando specificatamente il loro id
+
+trovare numero di facility con almeno un as senza coordinate
+
+top 10 AS per customer cone size
+('3356', 48782)
+('1299', 37885)
+('174', 34781)
+('2914', 20577)
+('6762', 20412)
+('3257', 19635)
+('6939', 18897)
+('6461', 17164)
+('6453', 16772)
+('3491', 12371)
+
+top 10 facility per customer cone sum
+
+(1, 278040)  c
+(15, 274778) c
+(60, 271697) c
+(58, 267614) c
+(225, 256832) 22.266098, 114.246512, 'MEGA-i (iAdvantage Hong Kong) n*AS = 242 8/10 top cones
+(282, 252161) c
+(16, 250733) 40.741469, -74.003387, 'Digital Realty NYC (111 8th Ave) n*AS = 124 9/10 top cones
+(226, 249961) 43.310818, 5.373865, 'Interxion Marseille (MRS1, MRS2, MRS3) n*AS = 151 9/10 top cones
+(19, 246340) c
+(8, 245779) 34.047501, -118.2573, 'Equinix LA1 - Los Angeles' n*AS = 136 9/10 top cones
+

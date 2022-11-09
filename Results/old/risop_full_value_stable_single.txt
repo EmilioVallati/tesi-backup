@@ -1,0 +1,40 @@
+country code: US service lost for 217532 users, 0.05% of national coverage, totaling 0.004900000000000003% of global internet infrastructure
+total damage: 217532 users lost service, for 0.004900000000000003% of the total internet
+link mode:
+stable
+links contained in the topology
+461889
+facilities found within database
+3461
+total number of AS in topology (number of nodes in the graph)
+74145
+lost facilities:
+911
+lost links:
+10258
+lost AS:
+121
+global user lost
+217532
+global internet loss
+0.004900000000000003
+ending graph nodes
+74024
+lost_nodes
+121
+starting size of giant component
+74145
+ending size of giant component
+73979
+starting number of disjoint components
+1
+ending number of disjoint components
+31
+number of samples
+20
+sample nodes
+[52510, 204943, 208880, 12296, 266539, 57842, 398123, 207489, 46175, 271343, 396414, 60914, 38253, 37011, 397612, 51190, 31537, 44421, 13283, 14058]
+starting sampled aspl
+3.45
+ending sampled aspl
+3.47

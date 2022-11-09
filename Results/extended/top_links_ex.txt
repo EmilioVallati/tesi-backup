@@ -1,0 +1,69 @@
+PS C:\Users\valla\OneDrive\Documenti\GitHub\tesi> python .\extended_top_links_test.py
+using default configuration
+initializing topology...
+generating topology graph
+collecting customer service data...
+service entries for countries by AS available:
+26060
+reading facility coordinates from fac_to_coord.txt
+reading facility ASN from fac_to_asn.txt
+reading asn locations from asn_to_loc.json
+reading city coordinates from file
+number of links read:
+171016
+top 10 facilities by total number of users serviced by their AS (facility, n* of users, country)
+[(34, 62561, London), (39, 49836, London), (45, 48760, London), (58, 48582, Frankfurt), (40, 48027, London), (2262, 47807, Slough), (835, 47472, London), (46, 47382, London), (4360, 46891, London), (43, 46646, London)]
+link mode:
+stable
+links contained in the topology
+461889
+facilities found within database
+3474
+total number of AS in topology (number of nodes in the graph)
+74145
+total number of locations where AS were detected
+172901
+lost locations:
+10
+lost facilities:
+10
+lost links:
+11438
+lost AS:
+75
+damage recorded
+country code: IL service lost for 939563 users, 12.68% of national coverage, totaling 0.0224% of global internet infrastructure
+country code: GB service lost for 233824 users, 0.36000000000000004% of national coverage, totaling 0.005600000000000001% of global internet infrastructure
+country code: JO service lost for 67642 users, 0.89% of national coverage, totaling 0.0016% of global internet infrastructure
+country code: UA service lost for 21191 users, 0.07% of national coverage, totaling 0.0005% of global internet infrastructure
+country code: TZ service lost for 11604 users, 0.09% of national coverage, totaling 0.0003% of global internet infrastructure
+country code: DE service lost for 19473 users, 0.03% of national coverage, totaling 0.0005% of global internet infrastructure
+total damage: 1293297 users lost service, for 0.030900000000000004% of the total internet
+global user lost
+1293297
+global internet loss
+0.030900000000000004
+ending graph nodes
+74070
+lost_nodes
+75
+starting size of giant component
+74145
+ending size of giant component
+74029
+starting number of disjoint components
+1
+ending number of disjoint components
+42
+starting number of isolates
+0
+ending number of isolates
+41
+number of samples
+20
+sample nodes
+[61029, 394169, 14913, 20955, 393952, 5133, 139465, 153, 142541, 208429, 397178, 62844, 33170, 205850, 56268, 1102, 134529, 53721, 6921, 19354]
+starting sampled aspl
+4.3
+ending sampled aspl
+4.3
