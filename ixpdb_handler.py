@@ -5,9 +5,9 @@ import csv
 import json
 from location import Location, check_location, compare_locations
 
-ASN_FILE = ".\Dataset\\asn-dataset.csv"
-IXP_FILE = ".\Dataset\\ixp-dataset.csv"
-IXP_SWITCH_FILE = ".\Dataset\\asn-by-ixp-switch.csv"
+ASN_FILE = "./Dataset/asn-dataset.csv"
+IXP_FILE = "./Dataset/ixp-dataset.csv"
+IXP_SWITCH_FILE = "./Dataset/asn-by-ixp-switch.csv"
 
 def get_asn_dataset(file):
     # ASN,CC,Name,IXP Number (IX-F ID),Switch Name,IPv4 Address,IPv6 Address,MAC Address,Vendor,MANRS,IXP Switch

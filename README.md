@@ -53,6 +53,28 @@ MODE
 #initialization state (START, ASN_MAPPING, LOCATION_MAPPING, LINK_DETECTION, DONE)
 STAGE
 
+##               ##
+## SCENARIO FILE ##
+##               ##
+
+Input file containing events to process must be a .csv with format
+Latitude,Longitude,Name,Description,Yield (kt),HOB (m)
+
+example:
+19.432608,-99.133209,MEXICO CITY,,800,1690
+'Name' and 'Description' fields may be empty
+
+The Dataset folder contains several precompiled scenario files:
+'europe1mil'
+'na1mil'
+
+##             ##
+## QUICK START ##
+##             ##
+
+to perform a quick analysis of a scenario, the extended_test.py script can be used
+
+> python extended_test.py  SCENARIO-FILE CONFIGURATION-FILE
 
 ##                ##
 ## Location Usage ##

@@ -8,7 +8,7 @@ from scenario import get_scenario
 import operator
 from ixpdb_handler import Location
 
-EXTENDED_CONFIG = ".\extended_conf.ini"
+EXTENDED_CONFIG = "./extended_conf.ini"
 SCENARIO_COUNTERVALUE = "./Dataset/countervalue.csv"
 
 if __name__ == '__main__':

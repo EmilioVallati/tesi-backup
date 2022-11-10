@@ -7,18 +7,23 @@ from os.path import exists
 from scenario import get_scenario
 import operator
 
-EXTENDED_CONFIG = ".\extended_conf.ini"
+EXTENDED_CONFIG = "./extended_conf.ini"
 SCENARIO = "./Dataset/na1mil"
 
 ###################### generic scenario test #####################à
 
 if __name__ == '__main__':
-    #loading configuration file
     if len(sys.argv) == 1:
+        print("Scenario file expected as argument")
+        exit()
+    #loading configuration file
+    if len(sys.argv) == 2:
         print("using default configuration")
         conf_file = EXTENDED_CONFIG
+        scenario = sys.argv[1]
     else:
-        conf_file = sys.argv[1]
+        conf_file = sys.argv[2]
+        scenario = sys.argv[1]
     if not exists(conf_file):
         print("configuration file not found, shutting down")
         exit()
@@ -30,7 +35,7 @@ if __name__ == '__main__':
             exit()
     v = False
 
-    sc = get_scenario(SCENARIO, v)
+    sc = get_scenario(scenario, v)
     t = get_topology(conf, v)
 
 
