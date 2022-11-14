@@ -7,9 +7,9 @@ from utility import ExtendedConfig
 if __name__ == '__main__':
     conf_file = "./extended_conf.ini"
     conf = ExtendedConfig(conf_file)
-    t = get_topology(conf, True)
+    t = get_topology(conf)
     e = Event(51.5, -0.12, 1)
     ev_tgt = t.net.get_target_locations(e)
-    report = t.process_event(ev_tgt, True)
+    report = t.process_event(ev_tgt)
 
     report.print_report()

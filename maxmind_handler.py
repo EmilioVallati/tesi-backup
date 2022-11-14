@@ -2,7 +2,7 @@ from location import Location, compare_locations, check_location
 import csv
 
 NET_ASN_FILE = "./Dataset/GeoLite2-ASN-Blocks-IPv4.csv"
-NET_TO_LOC = "./Dataset/Geolite2-City-Blocks-IPv4.csv"
+NET_TO_LOC = "./Dataset/GeoLite2-City-Blocks-IPv4.csv"
 
 #returns ASN to Network mapping
 def get_as_to_net(file, v=False):
