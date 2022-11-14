@@ -10,7 +10,7 @@ TIDE is a Python tool for network topology modeling and large scale disruption s
 clone using git bash and export files
 
 '''
-git clone https://github.com/EmilioVallati/tesi.git
+git clone https://github.com/EmilioVallati/tesi-vallati.git
 '''
 
 Use github lfs to export files
