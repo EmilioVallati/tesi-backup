@@ -1,107 +1,106 @@
-# tesi-backup
+# tesi-vallati
 # TIDE
 
 TIDE is a Python tool for network topology modeling and large scale disruption simulation.
 
-##              ##
-## Installation ##
-##              ##
+              
+# Installation
 
 clone using git bash and export files
 
-'''
+```
 git clone https://github.com/EmilioVallati/tesi-vallati.git
-'''
-
-Use github lfs to export files
-
-'''bash
-pip install git-lfs
-git lfs migrate export --include *.*
-'''
+```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements before running.
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
-##               ##
-## Configuration ##
-##               ##
+# Configuration 
 
-configuration file provides:
-# ixpdb dataset files
+
+configuration file must provide:
+### ixpdb dataset files
 IXPDB_ASN_FILE, IXPDB_IXP_FILE, IXPDB_ASN_IXP_FILE
-# population data for AS network
+### population data for AS network
 CUSTOMER_FILE
-# topology links
+### topology links
 RELFILE
-# peeringdb facility db
+### peeringdb facility db
 DBFILE
-# log file
+### log file
 LOGFILE
-# mapped topology file
+### mapped topology file
 LINKFILE
-#files where preprocessed data is saved to and loaded from
+### files where preprocessed data is saved to and loaded from
 CITY_COORD_FACILITIES, CITY_COORD_ASN, FACILITY_COORD_FILE,
 FACILITY_ASN_FILE, ASN_LOCATION_FILE, ASN_LIST_FILE
-# number of samples for average measurements
+### number of samples for average measurements
 NUMSAMPLES
-#stable or volatile mode (stable mode not implemented for extended source datasets)
+### stable or volatile mode (stable mode not implemented for extended source datasets)
 MODE
-#initialization state (START, ASN_MAPPING, LOCATION_MAPPING, LINK_DETECTION, DONE)
+### initialization state (START, ASN_MAPPING, LOCATION_MAPPING, LINK_DETECTION, DONE)
 STAGE
 
-##               ##
-## SCENARIO FILE ##
-##               ##
+               
+# SCENARIO FILE 
 
 Input file containing events to process must be a .csv with format
+```
 Latitude,Longitude,Name,Description,Yield (kt),HOB (m)
-
+```
 example:
+```
 19.432608,-99.133209,MEXICO CITY,,800,1690
+```
 'Name' and 'Description' fields may be empty
 
 The Dataset folder contains several precompiled scenario files:
 'europe1mil'
 'na1mil'
 
-##             ##
-## QUICK START ##
-##             ##
+             
+# QUICK START
+
+A single point 
 
 to perform a quick analysis of a scenario, the extended_test.py script can be used
 
-> python extended_test.py  SCENARIO-FILE CONFIGURATION-FILE
+```
+python extended_test.py SCENARIO-FILE CONFIGURATION-FILE
+```
 
-##                ##
-## Location Usage ##
-##                ##
+# Location Usage 
 
-## Locations are points where ASN are detected either within a facility or a single geographical point
-## Can have info on Facility ID, City and Coordinates
-'''
+ Locations are points where ASN are detected either within a facility or a single geographical point
+ Can have info on Facility ID, City and Coordinates
+
+```
 from location import Location, compare_locations
 ---
 loc1 = Location(22, "London", None)
 loc1.print()
-## output ##
-{22,London,None}
+```
 
-# Two Locations are considered equivalent if their first non-empty field match
+### Output
+
+```
+{22,London,None}
+```
+
+Two Locations are considered equivalent if their first non-empty field match
+```
 loc1 = Location(22, "London", None)
 loc2 = Location(22, "Paris", (50.5, -11))
-# Returns True
 compare_locations(loc1, loc2)
+```
+Returns 'True'
 
-##                        ##
-## ExtendedTopology Usage ##
-##                        ##
+# ExtendedTopology Usage 
 
-```python
-
+```
 from extended_topology import get_topology
 from utility import ExtendedConfig
 
@@ -122,9 +121,10 @@ form event_report import EventReport
 loc = Location(25, None, None)
 report = foo.process_event(loc)
 report.print_report()
+```
 
-## output ##
-'''
+### output 
+```
 link mode:
 volatile
 links contained in the topology
@@ -139,8 +139,7 @@ lost locations:
 1
 lost facilities:
 1
-...
-...
+---
 number of samples
 20
 sample nodes
@@ -149,10 +148,10 @@ starting sampled aspl
 3.71
 ending sampled aspl
 3.71
-'''
-##
+```
 
-# print statistics for multiple events
+### print statistics for multiple events
+```
 from extended_topology import get_aggregated_results
 --
 fac1 = [6, 9, 11]
@@ -167,8 +166,10 @@ reports.append(foo.process_event(event2))
 reports.append(foo.process_event(event3))
 get_aggregated_results(reports)
 --
-## output ##
-'''
+```
+
+### output 
+```
 Number of events processed:
 3
 maximum targets hit
@@ -183,74 +184,85 @@ internet %: 0.0026
 average damage:
 users: 41029.666666666664
 internet %: 0.001
-'''
-##
+```
 
-####                              ####
-#### Extended Network Model Usage ####
-####                              ####
+# Extended Network Model Usage 
 
-# automatically initialized when creating an ExtendedTopology object
-# initialization uses same config file
-# Accepted values for initialization STAGE: ("START", "ASN_MAPPING", "LOCATION_MAPPING", "LINK_DETECTION", "DONE")
-# STAGE selects starting step for initialization: START -> ASN_MAPPING -> LOCATION_MAPPING -> LINK_DETECTION -> DONE
-# "START" requires no preprocessed data.
-# Other options require output files from all previous stages to be available
-'''
+Automatically initialized when creating an ExtendedTopology object
+Initialization uses same config file
+Accepted values for initialization STAGE: ("START", "ASN_MAPPING", "LOCATION_MAPPING", "LINK_DETECTION", "DONE")
+STAGE selects starting step for initialization: START -> ASN_MAPPING -> LOCATION_MAPPING -> LINK_DETECTION -> DONE
+"START" requires no preprocessed data.
+Other options require output files from all previous stages to be available
+```
 from extended_network_model import ExtendedNetworkModel
 from utility import ExtendedConfig
-'''
+---
 conf = ExtendedConfig(CONFIG_FILE)
 net = ExtendedNetworkModel(conf)
 net.initialize(conf.STAGE, verbose=False)
-'''
+```
 
-# Updates the topology by removing a list of Locations and returns Result object
+Updates the topology by removing a list of Locations and returns Result object
+```
 result = net.process_impact(TARGET_LIST)
 result.print()
-## output example ##
+```
+### output example
+```
 number of removed links:2
 [('39122', '196737'), ('47720', '196737')]
 number of removed ASes:1
 [196737]
+```
 
-# returns list of ASN in topology, reads ASN_LIST_FILE if available
+
+Returns list of ASN in topology, reads ASN_LIST_FILE if available
+```
 net.get_topology_AS()
+```
 
-# print miscellaneous network and dataset measurements
+Print miscellaneous network and dataset measurements
+```
 net.print_dataset_stats()
+```
 
-## output example ##
-'''
+### output example
+```
 entries in service dataset
 26060
 countries in service dataset
 232
 AS in service dataset
-...
-...
+--
+--
 average node degree
 12.459073437183896
 top 3 AS with the largest number of neighbors (AS, degree)
 [(6939, 9610), (174, 6628), (3356, 6390)]
-'''
-##
+```
 
-# Events are built from geographical coordinates and a range
-'''
+Events are built from geographical coordinates and a range
+```
 from event_report import Event
-----
+---
 ev = Event(50.5, -11.7, 300)
-'''
+```
 
-# Returns list of all Locations in range of the Event
+Returns list of all Locations in range of the Event
+```
 targets = net.get_target_locations(ev)
 for t in targets:
     t.print()
-## output ##
+```
+
+### output 
+```
 {620,Cork,None}
 {None,None,(51.8755, -8.493)}
 {None,None,(51.8967, -8.4683)}
+```
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
