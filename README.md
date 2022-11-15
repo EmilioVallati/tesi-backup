@@ -18,6 +18,9 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install require
 pip install -r requirements.txt
 ```
 
+Download the GeoLite2 City: CSV Format dataset from the MaxMind website and extract the files in the 'Dataset' directory
+Instructions can be found at https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en
+
 # Configuration 
 
 
