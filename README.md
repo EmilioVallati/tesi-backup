@@ -64,9 +64,73 @@ The Dataset folder contains several precompiled scenario files:
              
 # QUICK START
 
-A single point 
+A single event can be analyzed using quick_start.py by specifying latitude, longitude and range of the event.
+For example:
+```
+> python quick_start.py 51.5, -0.12, 1
+```
+will output
+```
+using default configuration
+Event@(51.5,-0.12) range: 1
+link mode:
+volatile
+links contained in the topology
+461889
+facilities found within database
+3474
+total number of AS in topology (number of nodes in the graph)
+74145
+total number of locations where AS were detected
+172901
+lost locations:
+10
+lost facilities:
+8
+lost links:
+3717
+lost AS:
+514
+damage recorded
+country code: GB service lost for 1754779 users, 2.6599999999999997% of national coverage, totaling 0.04150000000000001% of global internet infrastructure
+country code: AT service lost for 17073 users, 0.2% of national coverage, totaling 0.0004% of global internet infrastructure
+country code: CN service lost for 12108 users, 0.0% of national coverage, totaling 0.0003% of global internet infrastructure
+country code: TZ service lost for 11604 users, 0.09% of national coverage, totaling 0.0003% of global internet infrastructure
+country code: NO service lost for 4115 users, 0.08% of national coverage, totaling 0.0001% of global internet infrastructure
+country code: SE service lost for 1672 users, 0.02% of national coverage, totaling 0.0% of global internet infrastructure
+country code: FK service lost for 358 users, 10.37% of national coverage, totaling 0.0% of global internet infrastructure
+total damage: 1801709 users lost service, for 0.04260000000000001% of the total internet
+global user lost
+1801709
+global internet loss
+0.04260000000000001
+ending graph nodes
+73631
+lost_nodes
+514
+starting size of giant component
+74145
+ending size of giant component
+73619
+starting number of disjoint components
+1
+ending number of disjoint components
+13
+starting number of isolates
+0
+ending number of isolates
+12
+number of samples
+20
+sample nodes
+[20118, 30239, 42213, 23089, 133835, 398995, 207325, 49740, 58375, 270531, 264734, 135490, 138206, 28397, 19630, 397695, 262533, 33692, 397690, 270633]
+starting sampled aspl
+3.67
+ending sampled aspl
+3.67
+```
 
-to perform a quick analysis of a scenario, the extended_test.py script can be used
+additionally, the extended_test.py script can be used to perform an analysis on a full scenario
 
 ```
 python extended_test.py SCENARIO-FILE CONFIGURATION-FILE
